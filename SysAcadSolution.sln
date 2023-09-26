@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysAcadCore", "SysAcadCore\SysAcadCore.csproj", "{1129028F-B633-40DA-9FEF-4000FD0A075F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysAcadView", "SysAcadView\SysAcadView.csproj", "{31E1F9F9-7331-4CF3-8B1A-1CE264148CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysAcadAppCons", "SysAcadAppCons\SysAcadAppCons.csproj", "{2F0ECCC3-4224-4C8F-903B-2F5EA3B7121A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1129028F-B633-40DA-9FEF-4000FD0A075F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1129028F-B633-40DA-9FEF-4000FD0A075F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1129028F-B633-40DA-9FEF-4000FD0A075F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E1F9F9-7331-4CF3-8B1A-1CE264148CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E1F9F9-7331-4CF3-8B1A-1CE264148CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E1F9F9-7331-4CF3-8B1A-1CE264148CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E1F9F9-7331-4CF3-8B1A-1CE264148CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0ECCC3-4224-4C8F-903B-2F5EA3B7121A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0ECCC3-4224-4C8F-903B-2F5EA3B7121A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0ECCC3-4224-4C8F-903B-2F5EA3B7121A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0ECCC3-4224-4C8F-903B-2F5EA3B7121A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

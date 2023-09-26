@@ -1,0 +1,16 @@
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\bin\Debug\net7.0-windows\SysAcadView.exe
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\bin\Debug\net7.0-windows\SysAcadView.deps.json
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\bin\Debug\net7.0-windows\SysAcadView.runtimeconfig.json
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\bin\Debug\net7.0-windows\SysAcadView.dll
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\bin\Debug\net7.0-windows\SysAcadView.pdb
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.Form1.resources
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.csproj.GenerateResource.cache
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.AssemblyInfoInputs.cache
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.AssemblyInfo.cs
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.csproj.CoreCompileInputs.cache
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.dll
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\refint\SysAcadView.dll
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.pdb
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.genruntimeconfig.cache
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\ref\SysAcadView.dll
