@@ -9,7 +9,7 @@ namespace SysAcadAppCons
         static void Main(string[] args){
             Console.WriteLine("*****SysAcadAppCons******");
             LoginService loginService = new LoginServiceImpl();
-            loginService.CheckCredential("pepe", "pepe");
+            loginService.CheckCredential("user2", "pepe");
         }
     }
 }

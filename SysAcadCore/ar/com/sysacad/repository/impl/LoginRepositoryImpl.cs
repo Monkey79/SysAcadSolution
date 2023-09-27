@@ -10,7 +10,7 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
 {
     public class LoginRepositoryImpl : BaseRepository, LoginRepository
     {
-        private const string GET_USER_BY_NAME = "SELECT * from users WHERE name=?";
+        private const string GET_BY_NAME = "SELECT * from users WHERE name=@name";
         private const string GET_ALL = "SELECT * FROM users";
 
         public LoginRepositoryImpl() {
@@ -22,14 +22,35 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
             throw new NotImplementedException();
         }
 
-        public List<User> GetAll(){
-            Console.WriteLine("********GET ALL******************");
-            try
-            {
+        public User GetByUsername(string username) {
+            Console.WriteLine("********GetByUsername**********");
+            try{
                 _mySqlConn.Open();
-                Console.WriteLine("***OPEN****");
-                _mySqlComnd = new MySqlCommand(GET_ALL, _mySqlConn);
-                Console.WriteLine("**_mySqlComnd***" + _mySqlComnd);
+                _mySqlComnd = new MySqlCommand(GET_BY_NAME, _mySqlConn);
+                _mySqlComnd.Parameters.AddWithValue("@name", username);
+                _mySqlRead = _mySqlComnd.ExecuteReader();
+
+                while (_mySqlRead.Read())
+                {
+                    Console.WriteLine("->id->" + _mySqlRead.GetInt32("id"));
+                    Console.WriteLine("->name->" + _mySqlRead.GetString("name"));
+                    Console.WriteLine("->pass->" + _mySqlRead.GetString("password"));
+                    Console.WriteLine("->role->" + _mySqlRead.GetString("role"));
+                }
+                _mySqlRead.Close();
+            }catch (Exception ex){
+                Console.WriteLine("err: " + ex.Message);
+            }finally {
+                _mySqlConn.Close();
+            }
+            return null;
+        }
+
+        public List<User> GetAll(){
+            Console.WriteLine("********GetAll**********");
+            try{
+                _mySqlConn.Open();                
+                _mySqlComnd = new MySqlCommand(GET_ALL, _mySqlConn);                
                 _mySqlRead = _mySqlComnd.ExecuteReader();
 
                 while (_mySqlRead.Read()){
@@ -40,9 +61,7 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
                 }
                 _mySqlRead.Close();
             }catch (Exception ex){
-                Console.WriteLine("ERROR--->" + ex.Message);
-                Console.WriteLine("ERROR--->" + ex.GetType);
-                Console.WriteLine("ERROR--->" + ex);
+                Console.WriteLine("err: "+ex.Message);
             }finally{
                 _mySqlConn.Close();
             }
@@ -53,9 +72,6 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
             throw new NotImplementedException();
         }
 
-        public User GetUserByUsername(string username){
-            throw new NotImplementedException();
-        }
 
         public User Save(User entity){
             throw new NotImplementedException();

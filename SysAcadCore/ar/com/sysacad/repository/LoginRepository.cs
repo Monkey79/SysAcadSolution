@@ -9,7 +9,7 @@ namespace SysAcadCore.ar.com.sysacad.repository
 {
     public interface LoginRepository : CrudOperation<User>
     {
-        public User GetUserByUsername(string username);
-        public User SaveUser(string username, string password);
+        public User GetByUsername(string username);
+        
     }
 }

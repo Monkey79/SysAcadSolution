@@ -1,8 +1,8 @@
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadCore\obj\Debug\net7.0\SysAcadCore.csproj.AssemblyReference.cache
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadCore\obj\Debug\net7.0\SysAcadCore.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadCore\obj\Debug\net7.0\SysAcadCore.AssemblyInfoInputs.cache
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadCore\obj\Debug\net7.0\SysAcadCore.AssemblyInfo.cs
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadCore\obj\Debug\net7.0\SysAcadCore.csproj.CoreCompileInputs.cache
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadCore\obj\Debug\net7.0\SysAcadCore.csproj.AssemblyReference.cache
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadCore\bin\Debug\net7.0\SysAcadCore.deps.json
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadCore\bin\Debug\net7.0\SysAcadCore.dll
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadCore\bin\Debug\net7.0\SysAcadCore.pdb
