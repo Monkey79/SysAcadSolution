@@ -1,6 +1,6 @@
-docker build -t mysqlacad:v1 .
-docker run -d --name mysqlacad1 -p 3306:3306 mysqlacad:v1
-docker exec -it mysqlacad1 mysql -u root -p
+docker build -t mysqlacad_img:v1 .
+docker run -d --name mysqlacadcont -p 3306:3306 mysqlacad_img:v1
+docker exec -it mysqlacadcont mysql -u root -p
     show databases;
-    use SysacadDb;
+    use sysacad_db;
     show tables;

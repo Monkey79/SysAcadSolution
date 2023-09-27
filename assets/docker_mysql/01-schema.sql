@@ -1,7 +1,8 @@
-USE SysacadDb;
+USE sysacad_db;
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    role VARCHAR(50) NOT NULL
+    us_name VARCHAR(255) NOT NULL,
+    us_password VARCHAR(255) NOT NULL,
+    us_role VARCHAR(50) NOT NULL,
+    us_entity_id INT NOT NULL
 );

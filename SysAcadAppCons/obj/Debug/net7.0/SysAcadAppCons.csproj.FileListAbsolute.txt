@@ -1,7 +1,3 @@
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.AssemblyInfoInputs.cache
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.AssemblyInfo.cs
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.csproj.CoreCompileInputs.cache
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\bin\Debug\net7.0\SysAcadAppCons.exe
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\bin\Debug\net7.0\SysAcadAppCons.deps.json
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\bin\Debug\net7.0\SysAcadAppCons.runtimeconfig.json
@@ -34,6 +30,10 @@ C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\Sys
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\bin\Debug\net7.0\SysAcadCore.dll
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\bin\Debug\net7.0\SysAcadCore.pdb
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.csproj.AssemblyReference.cache
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.AssemblyInfoInputs.cache
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.AssemblyInfo.cs
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.csproj.CoreCompileInputs.cache
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.csproj.CopyComplete
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\SysAcadAppCons.dll
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadAppCons\obj\Debug\net7.0\refint\SysAcadAppCons.dll

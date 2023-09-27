@@ -10,5 +10,6 @@ namespace SysAcadCore.ar.com.sysacad.service
     public interface LoginService
     {
         public User CheckCredential(string username, string password);
+        public List<User> GetAllUsers();
     }
 }

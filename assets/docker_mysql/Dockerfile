@@ -1,7 +1,7 @@
 FROM mysql:latest
 
 ENV MYSQL_ROOT_PASSWORD=root
-ENV MYSQL_DATABASE=SysacadDb
+ENV MYSQL_DATABASE=sysacad_db
 
 ##INIT DB##
 COPY 01-schema.sql /docker-entrypoint-initdb.d/

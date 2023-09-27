@@ -22,5 +22,10 @@ namespace SysAcadCore.ar.com.sysacad.service.impl
             _loginRepository.GetByUsername(username);
             return null;
         }
+
+        public List<User> GetAllUsers(){
+            Console.WriteLine("****GetAllUsers******");
+            return _loginRepository.GetAll();
+        }
     }
 }
