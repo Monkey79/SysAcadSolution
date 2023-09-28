@@ -4,6 +4,9 @@
     <Compile Update="ar\com\sysacad\views\LoginPanelView.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ar\com\sysacad\views\StudentCreationView.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ar\com\sysacad\views\SysAcadAppView.cs">
       <SubType>Form</SubType>
     </Compile>

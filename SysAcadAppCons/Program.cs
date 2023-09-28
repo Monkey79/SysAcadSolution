@@ -13,15 +13,22 @@ namespace SysAcadAppCons
             Console.WriteLine("*****SysAcadAppCons******");
             _loginService = new LoginServiceImpl();
 
-            //TestGetUserByName();
-            TestGetAllUsers();
+            TestGetUserByName();
+            //TestGetAllUsers();
         }
 
         static void TestGetAllUsers() {
             showAllUsers(_loginService.GetAllUsers());
         }
         static void TestGetUserByName() {
-            _loginService.CheckCredential("user2", "pepe");
+            User user = _loginService.CheckCredential("user1", "pepe");
+            if(user != null) {
+                Console.WriteLine("user.id " + user.Id);
+                Console.WriteLine("user.name " + user.Name);
+                Console.WriteLine("user.password " + user.Password);
+                Console.WriteLine("user.role " + user.Role);
+                Console.WriteLine("user.entity_id " + user.EntityId);
+            }           
         }
 
         static void showAllUsers(List<User> users){

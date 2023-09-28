@@ -4,25 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SysAcadCore.ar.com.sysacad.entities
+namespace SysAcadCore.ar.com.sysacad.dto
 {
-    public class Student
+    public class StudentDto
     {
-        private int _id; //pk
-
         private string _name;
         private string _surname;
         private string _address;
         private string _phoneNumber;
         private string _email;
-        private int _file;
+
+        private int _file; //legajo
         private bool _changePassword;
 
-        private List<Payment> _payments;
-        private List<Registration> _registrations;
-
-       
-        public Student(string name, string surname, string address, string phoneNumber, string email, int file, bool changePassword)
+        public StudentDto(string name, string surname, string address, string phoneNumber, string email, int file, bool changePassword = false)
         {
             _name = name;
             _surname = surname;
@@ -31,27 +26,14 @@ namespace SysAcadCore.ar.com.sysacad.entities
             _email = email;
             _file = file;
             _changePassword = changePassword;
-
-            _payments = new List<Payment>();
-            _registrations = new List<Registration>();
         }
 
-        public Student() {
-        }
-
-        public int Id {set => _id = value; get => _id; }
         public string Name { get => _name; set => _name = value; }
         public string Surname { get => _surname; set => _surname = value; }
         public string Address { get => _address; set => _address = value; }
         public string PhoneNumber { get => _phoneNumber; set => _phoneNumber = value; }
         public string Email { get => _email; set => _email = value; }
-
-        public List<Payment> Payments { get => _payments; }
-        public List<Registration> Registrations { get => _registrations; }
         public int File { get => _file; set => _file = value; }
         public bool ChangePassword { get => _changePassword; set => _changePassword = value; }
-
-        public void AddPayment(Payment payment) { _payments.Add(payment); }
-        public void AddRegistration(Registration registration) { _registrations.Add(registration); }
     }
 }

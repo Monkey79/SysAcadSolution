@@ -17,10 +17,8 @@ namespace SysAcadCore.ar.com.sysacad.service.impl
         }
 
         public User CheckCredential(string username, string password) {
-            Console.WriteLine("****CheckCredential******");
-            Console.WriteLine(username);
-            _loginRepository.GetByUsername(username);
-            return null;
+            Console.WriteLine("****CheckCredential******");                        
+            return _loginRepository.GetByUsername(username); 
         }
 
         public List<User> GetAllUsers(){

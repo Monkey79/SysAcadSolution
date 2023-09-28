@@ -8,7 +8,7 @@ namespace SysAcadCore.ar.com.sysacad.repository
 {
     public interface CrudOperation<T>
     {
-        public T Save(T entity);
+        public bool Save(T entity);
         public List<T> GetAll();
         public T GetById(int id);
         public T DeleteById(int id);

@@ -1,13 +1,4 @@
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\bin\Debug\net7.0-windows\SysAcadView.exe
 C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\bin\Debug\net7.0-windows\SysAcadView.dll
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.ar.com.sysacad.views.LoginPanelView.resources
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.ar.com.sysacad.views.SysAcadAppView.resources
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.Properties.Resources.resources
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.csproj.GenerateResource.cache
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.AssemblyInfoInputs.cache
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.AssemblyInfo.cs
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.csproj.CoreCompileInputs.cache
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.dll
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\refint\SysAcadView.dll
-C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\obj\Debug\net7.0-windows\SysAcadView.pdb
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\admin\mdangelo_root\personal\4_utn\labo2\LabProgSlt\SysAcadSolution\SysAcadView\bin\Debug\net7.0-windows\SysAcadCore.dll
