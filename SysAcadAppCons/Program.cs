@@ -13,22 +13,33 @@ namespace SysAcadAppCons
             Console.WriteLine("*****SysAcadAppCons******");
             _loginService = new LoginServiceImpl();
 
-            TestGetUserByName();
-            //TestGetAllUsers();
+            //Test_Wrong_GetUserByName();
+            //Test_Correct_GetUserByName();
+            Test_Get_AllUsers();
+            //Test_NO_EXIST_User();
+            //Test_Get_AllUsers();
         }
 
-        static void TestGetAllUsers() {
+
+        //------------------Login
+        static void Test_NO_EXIST_User() {
+            bool status = _loginService.Create("usuario22", "$$usuario22","Admin");
+            Console.WriteLine("usuario {0} creado con exito =","usuario22", status);
+        }
+        static void Test_Get_AllUsers() {
             showAllUsers(_loginService.GetAllUsers());
         }
-        static void TestGetUserByName() {
-            User user = _loginService.CheckCredential("user1", "pepe");
-            if(user != null) {
+        static void Test_Wrong_GetUserByName() {
+            User user = _loginService.CheckCredential("wrong", "wrong");                   
+        }
+        static void Test_Correct_GetUserByName(){
+            User user = _loginService.CheckCredential("12345", "Contraseña2");
+            if (user != null){
                 Console.WriteLine("user.id " + user.Id);
                 Console.WriteLine("user.name " + user.Name);
                 Console.WriteLine("user.password " + user.Password);
                 Console.WriteLine("user.role " + user.Role);
-                Console.WriteLine("user.entity_id " + user.EntityId);
-            }           
+            }
         }
 
         static void showAllUsers(List<User> users){
@@ -37,7 +48,6 @@ namespace SysAcadAppCons
                 Console.WriteLine("user.name " + user.Name);
                 Console.WriteLine("user.password " + user.Password);
                 Console.WriteLine("user.role " + user.Role);
-                Console.WriteLine("user.entity_id " + user.EntityId);                
             }
         }
     }

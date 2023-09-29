@@ -27,7 +27,7 @@ namespace SysAcadCore.ar.com.sysacad.service.impl
                 student.Name = studentDto.Name;
                 student.Surname = studentDto.Surname;
                 student.Email = studentDto.Email;
-                student.File   = studentDto.File;
+                student.FileNumber   = studentDto.File;
                 student.Address = studentDto.Address;
                 student.PhoneNumber = studentDto.PhoneNumber;
                 student.ChangePassword = studentDto.ChangePassword;

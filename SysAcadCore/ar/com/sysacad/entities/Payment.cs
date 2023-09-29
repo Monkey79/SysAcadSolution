@@ -6,25 +6,29 @@ using System.Threading.Tasks;
 
 namespace SysAcadCore.ar.com.sysacad.entities
 {
-    public enum TYPE {
-        FEE,
-        SUBSCRITION
-    }
     public class Payment
     {
-        private TYPE _type;
-        private float _value;
+        private int _id;
+        private int _studentFileNumber; //fk (legajo)
+        private string _concept; //matricula - cuota
+        private float _amount;
         private bool _settled;
 
-        public Payment(TYPE type, float value, bool settled)
-        {
-            _type = type;
-            _value = value;
+        public Payment() {
+        }
+
+        public Payment(int id, int studentFileNumber, string concept, float amount, bool settled){
+            _id = id;
+            _studentFileNumber = studentFileNumber;
+            _concept = concept;
+            _amount = amount;
             _settled = settled;
         }
 
-        public TYPE Type { get => _type; set => _type = value; }
-        public float Value { get => _value; set => _value = value; }
+        public int Id { get => _id; set => _id = value; }
+        public int StudentFileNumber { get => _studentFileNumber; set => _studentFileNumber = value; }
+        public string Concept { get => _concept; set => _concept = value; }
+        public float Amount { get => _amount; set => _amount = value; }
         public bool Settled { get => _settled; set => _settled = value; }
     }
 }

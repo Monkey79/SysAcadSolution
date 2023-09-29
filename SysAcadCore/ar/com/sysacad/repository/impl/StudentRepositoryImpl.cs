@@ -47,7 +47,7 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
                     student.Id = _mySqlRead.GetInt32("id");
                     student.Name = _mySqlRead.GetString("st_name");
                     student.Surname = _mySqlRead.GetString("st_surname");
-                    student.File = _mySqlRead.GetInt32("st_file");
+                    student.FileNumber = _mySqlRead.GetInt32("st_file");
                     student.Address = _mySqlRead.GetString("st_address");
                     student.PhoneNumber = _mySqlRead.GetString("st_phone_number");
                     student.Email = _mySqlRead.GetString("st_email_account");
@@ -74,7 +74,7 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
                 _mySqlComnd.Parameters.AddWithValue("@address", student.Address);
                 _mySqlComnd.Parameters.AddWithValue("@phoneNumber", student.PhoneNumber);
                 _mySqlComnd.Parameters.AddWithValue("@email", student.Email);
-                _mySqlComnd.Parameters.AddWithValue("@file", student.File);
+                _mySqlComnd.Parameters.AddWithValue("@file", student.FileNumber);
                 _mySqlComnd.Parameters.AddWithValue("@changePassword", student.ChangePassword);
 
                 rowsAffected = _mySqlComnd.ExecuteNonQuery();
