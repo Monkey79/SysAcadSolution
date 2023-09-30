@@ -24,8 +24,7 @@ namespace SysAcadCore.ar.com.sysacad.entities
         public Student(){
         }
 
-        public Student(string name, string surname, string address, string phoneNumber, string email, int fileNumber, bool changePassword)
-        {
+        public Student(string name, string surname, string address, string phoneNumber, string email, int fileNumber, bool changePassword){
             _name = name;
             _surname = surname;
             _address = address;
@@ -33,9 +32,6 @@ namespace SysAcadCore.ar.com.sysacad.entities
             _email = email;
             _fileNumber = fileNumber;
             _changePassword = changePassword;
-
-            _payments = new List<Payment>();
-            _registrations = new List<Registration>();
         }
 
         public int Id {set => _id = value; get => _id; }
@@ -47,11 +43,7 @@ namespace SysAcadCore.ar.com.sysacad.entities
 
         public int FileNumber { get => _fileNumber; set => _fileNumber = value; }
         public bool ChangePassword { get => _changePassword; set => _changePassword = value; }
-
-        public void AddPayment(Payment payment) { _payments.Add(payment); }
-        public void AddRegistration(Registration registration) { _registrations.Add(registration); }
-
-        public List<Payment> Payments { get => _payments; }
-        public List<Registration> Registrations { get => _registrations; }
+        public List<Payment> Payments { get => _payments; set => _payments = value; }
+        public List<Registration> Registrations { get => _registrations; set => _registrations = value; }
     }
 }

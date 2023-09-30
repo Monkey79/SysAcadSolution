@@ -15,6 +15,10 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
         protected MySqlCommand _mySqlComnd;
         protected MySqlDataReader _mySqlRead;
 
+        public BaseRepository() {
+            _mySqlConn = new MySqlConnection(CONNN_URL);
+        }
+
         public MySqlConnection MySqlConn { get => _mySqlConn; }
         public MySqlCommand MySqlCom { get => _mySqlComnd; }
         public MySqlDataReader MySqlRead { get => _mySqlRead; }

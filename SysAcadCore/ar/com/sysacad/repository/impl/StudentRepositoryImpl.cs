@@ -13,8 +13,8 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
         private const string GET_BY_FILE = "SELECT * FROM students WHERE st_file=@file";
         private const string SAVE = "INSERT INTO students (st_name, st_surname, st_address, st_phone_number, st_email_account, st_file, st_change_password) "+
                                     "VALUES (@name, @surname, @address, @phoneNumber, @email, @file, @changePassword)";
-        public StudentRepositoryImpl() {
-            _mySqlConn = new MySqlConnection();
+        public StudentRepositoryImpl() : base(){
+            
         }
 
         public Student DeleteById(int id)
@@ -85,6 +85,11 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
                 _mySqlConn.Close();               
             }
             return rslt;
+        }
+
+        public bool Update(Student entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

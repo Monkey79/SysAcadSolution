@@ -11,5 +11,6 @@ namespace SysAcadCore.ar.com.sysacad.service
     public interface StudentService
     {
         public bool CreateStudent(StudentDto studentDto);
+        public Student GetStudentByFileNumber(int fileNumber);
     }
 }

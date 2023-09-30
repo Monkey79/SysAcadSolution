@@ -38,5 +38,10 @@ namespace SysAcadCore.ar.com.sysacad.service.impl
             }
             return saveRsl;            
         }
+
+        public Student GetStudentByFileNumber(int fileNumber){
+            Student student = _studenRep.GetByStudentFile(fileNumber); //legajo          
+            return student;
+        }
     }
 }

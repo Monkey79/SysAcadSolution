@@ -17,7 +17,7 @@ namespace SysAcadCore.ar.com.sysacad
         private List<Student> _students;
         
 
-        public AdminSysAcadSystem() {
+        public AdminSysAcadSystem(User user):base(user) {
             _students = new List<Student>();
             _studentSrvc = new StudentServiceImpl();
         }
@@ -32,7 +32,5 @@ namespace SysAcadCore.ar.com.sysacad
         public void EditStudent(Student student) { 
 
         }
-
-
     }
 }

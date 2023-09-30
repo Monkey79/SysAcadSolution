@@ -16,9 +16,8 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
         private const string INSERT_USER = "INSERT INTO users(us_name, us_password, us_role) " +
             "VALUES(@userName, @password, @role)";
 
-        public LoginRepositoryImpl() {
-            Console.WriteLine("***LoginRepositoryImpl****");
-            _mySqlConn = new MySqlConnection(CONNN_URL);
+        public LoginRepositoryImpl() : base(){
+            Console.WriteLine("***LoginRepositoryImpl****");            
         }
 
         public User DeleteById(int id){
@@ -102,6 +101,10 @@ namespace SysAcadCore.ar.com.sysacad.repository.impl
                 _mySqlConn.Close();
             }
             return rslt;
+        }
+
+        public bool Update(User entity){
+            throw new NotImplementedException();
         }
     }
 }
